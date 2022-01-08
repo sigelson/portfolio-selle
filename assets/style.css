@@ -1,0 +1,79 @@
+html {
+    cursor: url(https://i.imgur.com/y9g74Mp.png), default;
+  }
+
+.roselletext{
+    cursor: url(https://i.imgur.com/N4uhFPl.png), auto;	
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.roselletext:hover{
+    background-color: rgb(6, 99, 99);
+    color: #ffffff;
+}
+
+.sleeptext{
+    cursor: url(https://i.imgur.com/N4uhFPl.png), auto;	
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.sleeptext:hover{
+    background-color: rgb(88, 104, 0);
+    color: #ffffff;
+}
+
+.eattext{
+    cursor: url(https://i.imgur.com/N4uhFPl.png), auto;	
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.eattext:hover{
+    background-color: rgb(99, 35, 6);
+    color: #ffffff;
+}
+
+.bg-buttermilk{
+    background-color: #fdefb2;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50%;                       /******** <- Remove this line *********/
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+
+  .img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+  }
+
+  .img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+
+  .link{
+    cursor: url(https://i.imgur.com/N4uhFPl.png), auto;	
+  }
